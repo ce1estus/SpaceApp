@@ -1,0 +1,60 @@
+body {
+  background-image:url('ph-intro.jpg');
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-size: cover;
+
+
+}
+#my-button {
+  position: relative;
+  background-color: #f00;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#my-button:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-1px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-1px); }
+  100% { transform: translateX(0); }
+}
+
+
+h1 {
+  color: #4dda1abe;
+  font-size: 36px;
+  text-align: center;
+}
+ 
+p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+a {
+  color: #f00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
